@@ -760,5 +760,31 @@ footer {
 
         gap: 15px;
     }
+    
+      /* Teaching and datasets on mobile */
+    
+    .teaching-section {
+        margin-top: 35px;
+    }
+    
+    .institution-section {
+        margin-left: 10px;
+    }
+    
+    .position-section {
+        margin-left: 10px;
+    }
+    
+    .dataset-row {
+        grid-template-columns: 1fr;
+    
+        gap: 25px;
+    
+        margin-bottom: 60px;
+    }
+    
+    .dataset-image {
+        max-width: 500px;
+    }
 
 }
