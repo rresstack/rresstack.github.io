@@ -431,6 +431,197 @@ main {
 }
 
 
+/* =========================
+   TEACHING PAGE
+   ========================= */
+
+.teaching-section {
+    max-width: 900px;
+    margin-top: 50px;
+}
+
+.teaching-section h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 65px;
+    margin-bottom: 35px;
+}
+
+.teaching-section h2:first-child {
+    margin-top: 0;
+}
+
+.institution-section {
+    margin-left: 25px;
+    margin-bottom: 45px;
+}
+
+.institution-section h3 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.position-section {
+    margin-left: 25px;
+    margin-bottom: 32px;
+}
+
+.position-section h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.course {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.course-item {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 22px;
+}
+
+.course strong,
+.course-item strong {
+    font-weight: 600;
+}
+
+
+/* Semesters taught dropdown */
+
+.semester-box {
+    margin-top: 7px;
+}
+
+.semester-box summary {
+    display: inline-block;
+
+    cursor: pointer;
+
+    font-size: 14px;
+    color: #666;
+
+    list-style: none;
+}
+
+.semester-box summary::-webkit-details-marker {
+    display: none;
+}
+
+.semester-box summary::before {
+    content: "▶";
+    font-size: 9px;
+    margin-right: 7px;
+}
+
+.semester-box[open] summary::before {
+    content: "▼";
+}
+
+.semester-box p {
+    margin-top: 8px;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+}
+
+/* =========================
+   DATASETS PAGE
+   ========================= */
+
+.datasets-section {
+    max-width: 1000px;
+    margin-top: 50px;
+}
+
+.dataset-row {
+    display: grid;
+
+    grid-template-columns: 300px 1fr;
+
+    gap: 45px;
+
+    margin-bottom: 75px;
+
+    align-items: start;
+}
+
+.dataset-image {
+    width: 100%;
+}
+
+.dataset-image img {
+    display: block;
+
+    width: 100%;
+
+    height: auto;
+
+    object-fit: contain;
+}
+
+.dataset-content h2 {
+    font-size: 26px;
+    line-height: 1.35;
+    font-weight: 500;
+
+    margin: 0 0 10px 0;
+}
+
+.dataset-authors {
+    font-size: 16px;
+
+    margin: 0 0 5px 0;
+}
+
+.dataset-institution {
+    font-size: 15px;
+
+    color: #777;
+
+    margin: 0 0 18px 0;
+}
+
+.dataset-content p {
+    font-size: 16px;
+    line-height: 1.7;
+
+    max-width: 650px;
+}
+
+.dataset-link {
+    display: inline-block;
+
+    margin-top: 8px;
+
+    font-size: 15px;
+
+    color: #444;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid #aaa;
+
+    padding-bottom: 2px;
+}
+
+.dataset-link:hover {
+    border-bottom-color: #333;
+}
+
+.dataset-note {
+    font-size: 14px !important;
+    color: #777;
+    margin-top: 12px;
+}
+
 /* =====================================
    COMMUNITY PHOTO
    ===================================== */
