@@ -277,13 +277,13 @@ main {
 }
 
 .community img {
-    width: 100%;
+    width: 50%;
 
-    max-height: 500px;
+    max-height: 300px;
 
     object-fit: cover;
 
-    display: block;
+    display: inline-block;
 }
 
 
