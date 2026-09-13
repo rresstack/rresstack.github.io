@@ -295,15 +295,15 @@ main {
    ================================ */
 
 .paper {
-    margin-bottom: 38px;
+    margin-bottom: 55px;
 }
 
 .paper h2 {
-    font-size: 26px;
-    line-height: 1.35;
+    font-size: 23px;
+    line-height: 1.25;
     font-weight: 500;
-    margin: 0 0 10px 0;
-    max-width: 1000px;
+    margin: 0 0 8px 0;
+    max-width: 1200px;
 }
 
 /* Job Market Paper */
@@ -313,7 +313,7 @@ main {
     letter-spacing: 2px;
     font-weight: 600;
     color: #888;
-    margin-bottom: 9px;
+    margin-bottom: 8px;
 }
 
 /* Abstract */
@@ -358,6 +358,7 @@ main {
 
     max-width: 850px;
 }
+
 /* =====================================
    RESEARCH AREAS
    ===================================== */
