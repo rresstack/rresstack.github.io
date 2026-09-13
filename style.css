@@ -118,9 +118,9 @@ main {
 }
 
 .hero-image img {
-    width: 200px;
+    width: 300px;
 
-    height: 200px;
+    height: 300px;
 
     object-fit: cover;
 
