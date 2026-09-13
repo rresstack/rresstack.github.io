@@ -1,6 +1,6 @@
-/* =========================
-   General
-   ========================= */
+/* =====================================
+   GENERAL
+   ===================================== */
 
 * {
     box-sizing: border-box;
@@ -8,15 +8,16 @@
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-                 Roboto, Helvetica, Arial, sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
+
     color: #333;
-    background: #ffffff;
+    background: #fff;
+
     line-height: 1.7;
 }
 
 a {
-    color: #333;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -25,19 +26,20 @@ a:hover {
 }
 
 
-/* =========================
-   Navigation
-   ========================= */
+/* =====================================
+   NAVIGATION
+   ===================================== */
 
 nav {
     border-bottom: 1px solid #e5e5e5;
-    background: #ffffff;
+    background: #fff;
 }
 
 .nav-container {
-    max-width: 1100px;
+    max-width: 1150px;
+
     margin: 0 auto;
-    padding: 22px 30px;
+    padding: 22px 35px;
 
     display: flex;
     justify-content: space-between;
@@ -45,6 +47,8 @@ nav {
 }
 
 .site-name {
+    font-family: Arial, Helvetica, sans-serif;
+
     font-size: 20px;
     font-weight: 600;
 }
@@ -55,7 +59,9 @@ nav {
 }
 
 .nav-links a {
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
     color: #555;
 }
 
@@ -65,138 +71,274 @@ nav {
 }
 
 
-/* =========================
-   Main content
-   ========================= */
+/* =====================================
+   MAIN
+   ===================================== */
 
 main {
-    max-width: 1100px;
+    max-width: 1150px;
+
     margin: 0 auto;
-    padding: 70px 30px;
+
+    padding: 70px 35px;
 }
 
 
-/* =========================
-   Homepage hero
-   ========================= */
+/* =====================================
+   HERO
+   ===================================== */
 
 .hero {
     display: grid;
-    grid-template-columns: 280px 1fr;
-    gap: 70px;
+
+    grid-template-columns: 320px 1fr;
+
+    gap: 75px;
+
     align-items: center;
 
-    padding: 40px 0 80px;
+    padding: 35px 0 95px;
 }
 
-.hero-image {
-    width: 280px;
-    height: 280px;
+.hero-image img {
+    width: 300px;
+    height: 300px;
+
+    object-fit: cover;
 
     border-radius: 50%;
-    background: #f1f1f1;
 }
 
 .hero-text h1 {
-    margin: 0 0 8px;
+    margin: 0 0 5px;
 
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 1.2;
+    font-family: Georgia, "Times New Roman", serif;
+
+    font-size: 52px;
+    font-weight: normal;
+
+    line-height: 1.15;
 }
 
 .hero-text h2 {
     margin: 0;
 
-    font-size: 22px;
-    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 21px;
+    font-weight: normal;
+
     color: #555;
 }
 
 .affiliation {
-    margin-top: 5px;
+    margin-top: 3px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 16px;
+
     color: #777;
 }
 
 .hero-text p {
-    max-width: 650px;
+    max-width: 680px;
+
+    font-size: 19px;
+}
+
+.hero-text .intro {
+    margin-top: 35px;
+
+    font-size: 21px;
+
+    line-height: 1.65;
+}
+
+
+/* =====================================
+   BUTTONS / LINKS
+   ===================================== */
+
+.hero-links {
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    margin-top: 30px;
+}
+
+.button {
+    padding: 10px 20px;
+
+    background: #333;
+
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
+}
+
+.button:hover {
+    background: #555;
+
+    text-decoration: none;
+}
+
+.text-link,
+.arrow-link {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
+
+    font-weight: 500;
+}
+
+
+/* =====================================
+   SECTIONS
+   ===================================== */
+
+.section {
+    border-top: 1px solid #e5e5e5;
+
+    padding: 65px 0;
+}
+
+.section-label {
+    margin-bottom: 15px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 12px;
+
+    letter-spacing: 2px;
+
+    color: #888;
+}
+
+.section h2 {
+    max-width: 800px;
+
+    margin: 0 0 20px;
+
+    font-size: 32px;
+
+    font-weight: normal;
+
+    line-height: 1.35;
+}
+
+.wide-text {
+    max-width: 800px;
+
     font-size: 18px;
 }
 
 
-/* =========================
-   Sections
-   ========================= */
+/* =====================================
+   RESEARCH AREAS
+   ===================================== */
 
-.about,
-.research-interests {
-    border-top: 1px solid #e5e5e5;
-    padding: 55px 0;
+.research-areas {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 45px;
 }
 
-.about h2,
-.research-interests h2 {
-    font-size: 28px;
-    font-weight: 500;
+.area h3 {
+    margin-bottom: 8px;
+
+    font-size: 21px;
+
+    font-weight: normal;
 }
 
-.about p {
-    max-width: 750px;
-}
+.area p {
+    margin-top: 0;
 
+    color: #666;
 
-/* =========================
-   Research interests
-   ========================= */
-
-.interests {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.interests span {
-    padding: 8px 16px;
-
-    border: 1px solid #ddd;
-    border-radius: 20px;
-
-    font-size: 15px;
-    color: #555;
+    font-size: 16px;
 }
 
 
-/* =========================
-   Footer
-   ========================= */
+/* =====================================
+   COMMUNITY PHOTO
+   ===================================== */
+
+.community {
+    margin-top: 20px;
+}
+
+.community img {
+    width: 100%;
+
+    max-height: 500px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* =====================================
+   FOOTER
+   ===================================== */
 
 footer {
     border-top: 1px solid #e5e5e5;
 
-    max-width: 1100px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    max-width: 1150px;
+
     margin: 0 auto;
 
-    padding: 30px;
+    padding: 30px 35px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 14px;
 
     color: #777;
-    font-size: 14px;
+}
+
+.footer-container div {
+    display: flex;
+
+    gap: 20px;
 }
 
 
-/* =========================
-   Mobile
-   ========================= */
+/* =====================================
+   MOBILE
+   ===================================== */
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
 
     .nav-container {
         flex-direction: column;
+
         gap: 15px;
     }
 
     .nav-links {
         flex-wrap: wrap;
+
         justify-content: center;
+
         gap: 15px;
     }
 
@@ -206,17 +348,38 @@ footer {
 
     .hero {
         grid-template-columns: 1fr;
+
         gap: 35px;
+
         text-align: center;
+
+        padding-top: 20px;
     }
 
-    .hero-image {
-        margin: 0 auto;
+    .hero-image img {
+        width: 230px;
+        height: 230px;
     }
 
     .hero-text p {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .hero-links {
+        justify-content: center;
+    }
+
+    .research-areas {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+
+        gap: 15px;
     }
 
 }
