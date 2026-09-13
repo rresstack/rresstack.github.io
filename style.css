@@ -297,17 +297,48 @@ main {
 .research-areas {
     display: grid;
 
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 
-    gap: 55px;
+    gap: 35px;
 
-    padding: 10px 0 75px;
+    padding: 20px 0 75px;
 }
 
 .area {
-    padding-top: 25px;
+    display: flex;
 
-    border-top: 2px solid #333;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.area-circle {
+    width: 150px;
+    height: 150px;
+
+    border: 1px solid #333;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 20px;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    color: #333;
+}
+
+.area-circle:hover {
+    background: #f7f7f7;
 }
 
 .area h3 {
@@ -444,9 +475,16 @@ footer {
     }
 
     .research-areas {
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 
-        gap: 35px;
+    gap: 35px 20px;
+    }
+    
+    .area-circle {
+        width: 135px;
+        height: 135px;
+    
+        font-size: 15px;
     }
 
     .area p {
