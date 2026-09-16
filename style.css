@@ -238,9 +238,9 @@ main {
 }
 
 .section-label {
-    margin-bottom: 14px;
+    margin-bottom: 18px;
 
-    font-size: 11px;
+    font-size: 16px;
 
     font-weight: 600;
 
@@ -254,7 +254,7 @@ main {
 
     margin: 0 0 20px;
 
-    font-size: 34px;
+    font-size: 40px;
 
     font-weight: normal;
 
