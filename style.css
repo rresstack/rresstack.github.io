@@ -303,6 +303,10 @@ main {
     text-decoration: underline;
 }
 
+.page-header p {
+    max-width: 100%;
+}
+
 
 /* ================================
    WORKS IN PROGRESS
