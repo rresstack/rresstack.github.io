@@ -921,6 +921,60 @@ footer {
 
 }
 
+/* =========================
+   ABOUT ME TIMELINE — MOBILE
+   ========================= */
+
+.timeline {
+    margin-top: 50px;
+
+    padding-left: 55px;
+}
+
+.timeline::before {
+    left: 15px;
+}
+
+.timeline-item {
+    margin-bottom: 60px;
+}
+
+.timeline-marker {
+    left: -55px;
+
+    width: 35px;
+
+    text-align: left;
+
+    font-size: 12px;
+}
+
+.timeline-marker::after {
+    right: -20px;
+
+    width: 8px;
+
+    height: 8px;
+}
+
+.timeline-content h2 {
+    font-size: 24px;
+}
+
+.timeline-content p {
+    font-size: 16px;
+
+    line-height: 1.7;
+}
+
+.timeline-photo {
+    margin-top: 0;
+}
+
+.timeline-photo img {
+    width: 100%;
+}
+
 /* =========================================================
    RESEARCH PAGE — PAPER CARDS
    ========================================================= */
@@ -1115,6 +1169,170 @@ footer {
     color: #444;
 
     text-decoration: none;
+}
+
+/* =========================
+   ABOUT ME TIMELINE
+   ========================= */
+
+.about-header {
+    max-width: 900px;
+}
+
+
+/* -------------------------
+   Timeline Container
+   ------------------------- */
+
+.timeline {
+    position: relative;
+
+    max-width: 1000px;
+
+    margin: 75px auto 0 auto;
+
+    padding-left: 135px;
+}
+
+
+/* Vertical line */
+
+.timeline::before {
+    content: "";
+
+    position: absolute;
+
+    left: 75px;
+
+    top: 10px;
+
+    bottom: 0;
+
+    width: 1px;
+
+    background: #d8d8d8;
+}
+
+
+/* -------------------------
+   Timeline Item
+   ------------------------- */
+
+.timeline-item {
+    position: relative;
+
+    margin-bottom: 80px;
+}
+
+
+/* -------------------------
+   Timeline Marker
+   ------------------------- */
+
+.timeline-marker {
+    position: absolute;
+
+    left: -135px;
+
+    width: 105px;
+
+    text-align: right;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    color: #777;
+
+    line-height: 1.4;
+}
+
+
+/* Circle */
+
+.timeline-marker::after {
+    content: "";
+
+    position: absolute;
+
+    right: -35px;
+
+    top: 4px;
+
+    width: 9px;
+
+    height: 9px;
+
+    border-radius: 50%;
+
+    background: #777;
+}
+
+
+/* -------------------------
+   Timeline Content
+   ------------------------- */
+
+.timeline-content {
+    max-width: 750px;
+}
+
+.timeline-content h2 {
+    font-size: 28px;
+
+    font-weight: 500;
+
+    margin: 0 0 14px 0;
+
+    letter-spacing: -0.3px;
+}
+
+.timeline-content p {
+    font-size: 17px;
+
+    line-height: 1.75;
+
+    margin: 0;
+
+    max-width: 750px;
+}
+
+
+/* Links */
+
+.timeline-content a {
+    color: inherit;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid #aaa;
+
+    transition: border-color 0.2s ease;
+}
+
+.timeline-content a:hover {
+    border-bottom-color: #333;
+}
+
+
+/* -------------------------
+   Community Photo
+   ------------------------- */
+
+.timeline-photo {
+    margin-top: 10px;
+
+    max-width: 750px;
+}
+
+.timeline-photo img {
+    display: block;
+
+    width: 65%;
+
+    height: auto;
+
+    border-radius: 4px;
 }
 
 
