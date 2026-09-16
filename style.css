@@ -440,44 +440,67 @@ main {
    ========================= */
 
 .teaching-section {
-    max-width: 900px;
-    margin-top: 50px;
+    max-width: 950px;
+    margin-top: 55px;
 }
 
+
+/* -------------------------
+   Institution
+   ------------------------- */
+
 .teaching-section h2 {
-    font-size: 32px;
+    font-size: 34px;
     font-weight: 500;
-    margin-top: 65px;
-    margin-bottom: 35px;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    letter-spacing: -0.4px;
 }
 
 .teaching-section h2:first-child {
     margin-top: 0;
 }
 
+
+/* -------------------------
+   Department / School
+   ------------------------- */
+
 .institution-section {
     margin-left: 25px;
-    margin-bottom: 45px;
+    margin-bottom: 55px;
 }
 
 .institution-section h3 {
-    font-size: 23px;
+    font-size: 24px;
     font-weight: 500;
     margin-top: 0;
-    margin-bottom: 22px;
+    margin-bottom: 28px;
+    letter-spacing: -0.2px;
 }
+
+
+/* -------------------------
+   Positions
+   ------------------------- */
 
 .position-section {
     margin-left: 25px;
-    margin-bottom: 32px;
+    margin-bottom: 38px;
 }
 
 .position-section h4 {
     font-size: 18px;
     font-weight: 600;
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: 13px;
+    line-height: 1.4;
 }
+
+
+/* -------------------------
+   Courses
+   ------------------------- */
 
 .course {
     font-size: 17px;
@@ -487,7 +510,7 @@ main {
 .course-item {
     font-size: 17px;
     line-height: 1.7;
-    margin-bottom: 22px;
+    margin-bottom: 26px;
 }
 
 .course strong,
@@ -496,10 +519,36 @@ main {
 }
 
 
-/* Semesters taught dropdown */
+/* -------------------------
+   Greenberg Seminars Link
+   ------------------------- */
+
+.program-link {
+    display: inline-block;
+
+    margin-top: 2px;
+
+    font-size: 16px;
+    color: #555;
+
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 2px;
+
+    transition: all 0.2s ease;
+}
+
+.program-link:hover {
+    color: #111;
+    border-bottom-color: #333;
+}
+
+
+/* -------------------------
+   Semester Dropdown
+   ------------------------- */
 
 .semester-box {
-    margin-top: 7px;
+    margin-top: 8px;
 }
 
 .semester-box summary {
@@ -508,9 +557,15 @@ main {
     cursor: pointer;
 
     font-size: 14px;
-    color: #666;
+    color: #777;
 
     list-style: none;
+
+    transition: color 0.2s ease;
+}
+
+.semester-box summary:hover {
+    color: #333;
 }
 
 .semester-box summary::-webkit-details-marker {
@@ -519,6 +574,7 @@ main {
 
 .semester-box summary::before {
     content: "▶";
+
     font-size: 9px;
     margin-right: 7px;
 }
@@ -528,12 +584,60 @@ main {
 }
 
 .semester-box p {
-    margin-top: 8px;
+    margin-top: 9px;
     margin-bottom: 0;
 
     font-size: 14px;
     line-height: 1.6;
+
     color: #666;
+}
+
+
+/* -------------------------
+   AEA Summer Program
+   ------------------------- */
+
+.aea-program {
+    margin-top: 15px;
+}
+
+.aea-program p {
+    max-width: 700px;
+
+    font-size: 15px;
+    line-height: 1.7;
+
+    color: #555;
+}
+
+
+/* AEA photo */
+
+.teaching-photo {
+    display: block;
+
+    width: 65%;
+    max-width: 600px;
+
+    height: auto;
+
+    margin-top: 25px;
+
+    border-radius: 4px;
+}
+
+
+/* -------------------------
+   General Teaching Links
+   ------------------------- */
+
+.teaching-section a {
+    color: inherit;
+}
+
+.teaching-section a:hover {
+    color: #111;
 }
 
 /* =========================
@@ -759,19 +863,46 @@ footer {
     }
     
       /* Teaching and datasets on mobile */
-    
-    .teaching-section {
-        margin-top: 35px;
-    }
-    
-    .institution-section {
-        margin-left: 10px;
-    }
-    
-    .position-section {
-        margin-left: 10px;
-    }
-    
+        
+      .teaching-section {
+          margin-top: 35px;
+      }
+      
+      .teaching-section h2 {
+          font-size: 29px;
+          margin-top: 55px;
+          margin-bottom: 30px;
+      }
+      
+      .institution-section {
+          margin-left: 10px;
+          margin-bottom: 45px;
+      }
+      
+      .institution-section h3 {
+          font-size: 21px;
+          margin-bottom: 24px;
+      }
+      
+      .position-section {
+          margin-left: 10px;
+          margin-bottom: 30px;
+      }
+      
+      .position-section h4 {
+          font-size: 17px;
+      }
+      
+      .course,
+      .course-item {
+          font-size: 16px;
+      }
+      
+      .teaching-photo {
+          width: 100%;
+          max-width: 600px;
+      }
+  
     .dataset-row {
         grid-template-columns: 1fr;
     
