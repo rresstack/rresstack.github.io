@@ -431,7 +431,7 @@ main {
 
 .paper-card {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
 
     margin-bottom: 28px;
     padding: 30px 34px;
@@ -462,7 +462,7 @@ main {
 /* Paper titles */
 
 .paper-card h2 {
-    max-width: 1100px;
+    max-width: 100%;
 
     margin: 0 0 16px;
 
