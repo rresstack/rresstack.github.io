@@ -1264,6 +1264,24 @@ footer {
     margin-bottom: 0;
 }
 
+.timeline-item:last-child::before {
+    content: "";
+
+    position: absolute;
+
+    left: -55px;
+
+    top: 14px;
+
+    bottom: 0;
+
+    width: 3px;
+
+    background: white;
+
+    z-index: 1;
+}
+
 
 /* -------------------------
    Timeline Marker
