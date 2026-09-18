@@ -631,7 +631,7 @@ main {
 
 .teaching-section {
     max-width: 950px;
-    margin-top: 55px;
+    margin-top: 30px;
 }
 
 
@@ -642,8 +642,10 @@ main {
 .teaching-section h2 {
     font-size: 34px;
     font-weight: 500;
-    margin-top: 75px;
-    margin-bottom: 40px;
+
+    margin-top: 40px;
+    margin-bottom: 20px;
+
     letter-spacing: -0.4px;
 }
 
@@ -658,14 +660,16 @@ main {
 
 .institution-section {
     margin-left: 25px;
-    margin-bottom: 55px;
+    margin-bottom: 25px;
 }
 
 .institution-section h3 {
     font-size: 24px;
     font-weight: 500;
+
     margin-top: 0;
-    margin-bottom: 28px;
+    margin-bottom: 14px;
+
     letter-spacing: -0.2px;
 }
 
@@ -676,15 +680,17 @@ main {
 
 .position-section {
     margin-left: 25px;
-    margin-bottom: 38px;
+    margin-bottom: 18px;
 }
 
 .position-section h4 {
     font-size: 18px;
     font-weight: 600;
+
     margin-top: 0;
-    margin-bottom: 13px;
-    line-height: 1.4;
+    margin-bottom: 5px;
+
+    line-height: 1.3;
 }
 
 
@@ -694,13 +700,13 @@ main {
 
 .course {
     font-size: 17px;
-    line-height: 1.7;
+    line-height: 1.5;
 }
 
 .course-item {
     font-size: 17px;
-    line-height: 1.7;
-    margin-bottom: 26px;
+    line-height: 1.5;
+    margin-bottom: 12px;
 }
 
 .course strong,
@@ -710,35 +716,11 @@ main {
 
 
 /* -------------------------
-   Greenberg Seminars Link
-   ------------------------- */
-
-.program-link {
-    display: inline-block;
-
-    margin-top: 2px;
-
-    font-size: 16px;
-    color: #555;
-
-    border-bottom: 1px solid #aaa;
-    padding-bottom: 2px;
-
-    transition: all 0.2s ease;
-}
-
-.program-link:hover {
-    color: #111;
-    border-bottom-color: #333;
-}
-
-
-/* -------------------------
    Semester Dropdown
    ------------------------- */
 
 .semester-box {
-    margin-top: 8px;
+    margin-top: 2px;
 }
 
 .semester-box summary {
@@ -774,13 +756,37 @@ main {
 }
 
 .semester-box p {
-    margin-top: 9px;
+    margin-top: 5px;
     margin-bottom: 0;
 
     font-size: 14px;
-    line-height: 1.6;
+    line-height: 1.5;
 
     color: #666;
+}
+
+
+/* -------------------------
+   Greenberg Seminars Link
+   ------------------------- */
+
+.program-link {
+    display: inline-block;
+
+    margin-top: 0;
+
+    font-size: 16px;
+    color: #555;
+
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 2px;
+
+    transition: all 0.2s ease;
+}
+
+.program-link:hover {
+    color: #111;
+    border-bottom-color: #333;
 }
 
 
@@ -789,14 +795,14 @@ main {
    ------------------------- */
 
 .aea-program {
-    margin-top: 15px;
+    margin-top: 8px;
 }
 
 .aea-program p {
     max-width: 700px;
 
     font-size: 15px;
-    line-height: 1.7;
+    line-height: 1.6;
 
     color: #555;
 }
@@ -812,7 +818,7 @@ main {
 
     height: auto;
 
-    margin-top: 25px;
+    margin-top: 15px;
 
     border-radius: 4px;
 }
@@ -829,7 +835,6 @@ main {
 .teaching-section a:hover {
     color: #111;
 }
-
 /* =========================
    DATASETS PAGE
    ========================= */
