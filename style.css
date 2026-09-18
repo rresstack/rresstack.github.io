@@ -1139,61 +1139,6 @@ footer {
 }
 
 /* =========================
-   MY APPROACH TIMELINE — MOBILE
-   ========================= */
-
-.timeline {
-    margin-top: 50px;
-
-    padding-left: 55px;
-}
-
-.timeline::before {
-    left: 15px;
-}
-
-.timeline-item {
-    margin-bottom: 60px;
-}
-
-.timeline-marker {
-    left: -55px;
-
-    width: 35px;
-
-    text-align: left;
-
-    font-size: 12px;
-}
-
-.timeline-marker::after {
-    right: -20px;
-
-    width: 8px;
-
-    height: 8px;
-}
-
-.timeline-content h2 {
-    font-size: 24px;
-}
-
-.timeline-content p {
-    font-size: 16px;
-
-    line-height: 1.7;
-}
-
-.timeline-photo {
-    margin: 28px auto 0 auto;
-    max-width: 900px;
-}
-
-.timeline-photo img {
-    width: 100%;
-}
-
-/* =========================
    MY APPROACH TIMELINE
    ========================= */
 
@@ -1269,7 +1214,7 @@ footer {
 
     position: absolute;
 
-    left: -55px;
+    left: -76px;
 
     top: 14px;
 
@@ -1290,7 +1235,7 @@ footer {
 .timeline-marker {
     position: absolute;
 
-    left: -82px;
+    left: -90px;
 
     top: 7px;
 
