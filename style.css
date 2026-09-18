@@ -1186,7 +1186,7 @@ footer {
 }
 
 /* =========================
-  MY APPROACH TIMELINE
+   MY APPROACH TIMELINE
    ========================= */
 
 /* -------------------------
@@ -1266,10 +1266,9 @@ footer {
 
     left: -70px;
 
-    top: 3px;
+    top: 8px;
 
     width: 31px;
-
     height: 20px;
 
     z-index: 2;
@@ -1284,11 +1283,9 @@ footer {
     position: absolute;
 
     left: 9px;
-
     top: 0;
 
     width: 13px;
-
     height: 13px;
 
     border-radius: 50%;
@@ -1329,6 +1326,7 @@ footer {
     max-width: 900px;
 }
 
+
 /* -------------------------
    Links
    ------------------------- */
@@ -1354,6 +1352,7 @@ footer {
 
 .timeline-photo {
     margin: 28px auto 0 auto;
+
     max-width: 900px;
 }
 
@@ -1366,7 +1365,6 @@ footer {
 
     border-radius: 4px;
 }
-
 
 /* -------------------------
    Paper Links
