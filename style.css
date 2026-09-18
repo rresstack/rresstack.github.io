@@ -1131,7 +1131,7 @@ footer {
 }
 
 /* =========================
-   ABOUT ME TIMELINE — MOBILE
+   MY APPROACH TIMELINE — MOBILE
    ========================= */
 
 .timeline {
@@ -1177,7 +1177,8 @@ footer {
 }
 
 .timeline-photo {
-    margin-top: 0;
+    margin: 28px auto 0 auto;
+    max-width: 900px;
 }
 
 .timeline-photo img {
@@ -1188,8 +1189,22 @@ footer {
   MY APPROACH TIMELINE
    ========================= */
 
+/* -------------------------
+   My Approach Introduction
+   ------------------------- */
+
 .about-header {
-    max-width: 900px;
+    max-width: 1100px;
+}
+
+.about-header p {
+    max-width: 1000px;
+
+    margin: 0;
+
+    font-size: 18px;
+
+    line-height: 1.7;
 }
 
 
@@ -1338,9 +1353,8 @@ footer {
    ------------------------- */
 
 .timeline-photo {
-    margin-top: 28px;
-
-    max-width: 750px;
+    margin: 28px auto 0 auto;
+    max-width: 900px;
 }
 
 .timeline-photo img {
