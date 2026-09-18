@@ -1344,20 +1344,21 @@ footer {
 
     margin: 20px auto 0 auto;
 
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .timeline-photo img {
     display: block;
 
-    width: 58%;
-    max-width: 550px;
+    width: 45%;
+    max-width: 400px;
 
     height: auto;
 
-    margin: 0 auto;
-
     border: 1px solid #e5e5e5;
+
     border-radius: 4px;
 }
 
