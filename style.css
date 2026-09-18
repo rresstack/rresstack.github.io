@@ -1204,7 +1204,7 @@ footer {
 
     margin: 75px auto 0 auto;
 
-    padding-left: 135px;
+    padding-left: 70px;
 }
 
 
@@ -1215,9 +1215,9 @@ footer {
 
     position: absolute;
 
-    left: 75px;
+    left: 15px;
 
-    top: 10px;
+    top: 8px;
 
     bottom: 0;
 
@@ -1234,7 +1234,11 @@ footer {
 .timeline-item {
     position: relative;
 
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
 }
 
 
@@ -1245,19 +1249,15 @@ footer {
 .timeline-marker {
     position: absolute;
 
-    left: -135px;
+    left: -70px;
 
-    width: 105px;
+    top: 3px;
 
-    text-align: right;
+    width: 31px;
 
-    font-size: 15px;
+    height: 20px;
 
-    font-weight: 600;
-
-    color: #777;
-
-    line-height: 1.4;
+    z-index: 2;
 }
 
 
@@ -1268,13 +1268,13 @@ footer {
 
     position: absolute;
 
-    right: -35px;
+    left: 9px;
 
-    top: 4px;
+    top: 0;
 
-    width: 9px;
+    width: 13px;
 
-    height: 9px;
+    height: 13px;
 
     border-radius: 50%;
 
@@ -1311,7 +1311,9 @@ footer {
 }
 
 
-/* Links */
+/* -------------------------
+   Links
+   ------------------------- */
 
 .timeline-content a {
     color: inherit;
@@ -1333,7 +1335,7 @@ footer {
    ------------------------- */
 
 .timeline-photo {
-    margin-top: 10px;
+    margin-top: 28px;
 
     max-width: 750px;
 }
@@ -1341,13 +1343,17 @@ footer {
 .timeline-photo img {
     display: block;
 
-    width: 65%;
+    width: 72%;
 
     height: auto;
 
     border-radius: 4px;
 }
 
+
+/* -------------------------
+   Paper Links
+   ------------------------- */
 
 .paper-link:hover {
     text-decoration: underline;
