@@ -1375,3 +1375,21 @@ footer {
 .paper-link:hover {
     text-decoration: underline;
 }
+
+/* -------------------------
+   For CV PDF
+   ------------------------- */
+
+.cv-container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 5%;
+    box-sizing: border-box;
+}
+
+.cv-container iframe {
+    display: block;
+    width: 100%;
+    height: calc(100vh - 60px);
+    border: none;
+}
