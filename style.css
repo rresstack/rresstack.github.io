@@ -206,11 +206,13 @@ main {
     transition: all 0.2s ease;
 }
 
+/*
 .button:hover {
     background: #555;
 
     transform: translateY(-1px);
 }
+*/
 
 .text-link {
     font-size: 14px;
